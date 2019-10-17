@@ -1,0 +1,123 @@
+[
+    {
+        "id": 1,
+        "name": "Şeker Portakalı",
+        "author": "Jose Mauro De Vasconcelos",
+        "publisher": "Can Yayınları",
+        "summary": "Brezilya edebiyatının klasiklerinden Şeker Portakalı, José Mauro de Vasconcelos’un başyapıtı kabul edilir. Yetişkinler dünyasının sınırlamalarına hayal gücüyle meydan okuyan Zezé’nin yoksulluk, acı ve ümit dolu hikâyesi yazarın çocukluğundan derin izler taşır.",
+        "image": "https://i.dr.com.tr/cache/600x600-0/originals/0000000064031-1.jpg",
+        "date": "06-09-2019",
+        "pageNumber": "182",
+        "category": "Roman"
+    },
+    {
+        "id": 2,
+        "name": "Yüzüklerin Efendisi Yüzük Kardeşliği",
+        "author": "J.R.R Tolkien",
+        "publisher": "Metis Yayınları",
+        "summary": "Yüzüklerin Efendisinin illk kısmı Yüzük Kardeşliğini 97 Sonbaharında sunmuştu.Polisiye ya da bilimkurgu meraklıları, şiir roman ve öykü okurları, hep birlikte Frodo, Sam, Merry, Pippin, Aragorn ve Gandalf'ın maceralarını okumaya, Orta Dünya'da yaşamaya başladılar.",
+        "image": "https://i.dr.com.tr/cache/500x400-0/originals/0000000057163-1.jpg",
+        "date": "22-08-2019",
+        "pageNumber": "520",
+        "category": "Fantastik"
+    },
+    {
+        "id": 3,
+        "name": "Yüzüklerin Efendisi İki Kule",
+        "author": "J.R.R Tolkien",
+        "publisher": "Metis Yayınları",
+        "summary": "Bir açıdan bakarsanız bir fantezi romanı, başka bir açıdan baktığınızda, insanlık durumu, sorumluluk, iktidar ve savaş üzerine bir roman. Bir yolculuk, bir büyüme öyküsü; fedakarlık ve dostluk üzerine, hırs ve ihanet üzerine bir roman.",
+        "image": "https://i.dr.com.tr/cache/600x600-0/originals/0000000070718-1.jpg",
+        "date": "19-04-2019",
+        "pageNumber": "432",
+        "category": "Fantastik"
+    },
+    {
+        "id": 4,
+        "name": "Yüzüklerin Efendisi Kralın Dönüşü",
+        "author": "J.R.R Tolkien",
+        "publisher": "Metis Yayınları",
+        "summary": "'Yüzüklerin Efendisi' son yüzyılın en çok okunan yüz kitabı arasında en başta geliyor. Türkçe basımının ilk iki kitabı 'Yüzük Kardeşliği' ve 'İki Kule', bu ilginin evrenselliğini kanıtladı.",
+        "image": "https://i.dr.com.tr/cache/600x600-0/originals/0000000070734-1.jpg",
+        "date": "14-02-2019",
+        "pageNumber": "428",
+        "category": "Fantastik"
+    },
+    {
+        "id": 5,
+        "name": "Kürk Mantolu Madonna",
+        "author": "Sabahattin Ali",
+        "publisher": "Yapı Kredi Yayınları",
+        "summary": " Kimi tutkular rehberimiz olur yaşam boyunca. Kollarıyla bizi sarar. Sorgulamadan peşlerinden gideriz ve hiç pişman olmayacağımızı biliriz. Yapıtlarında insanların görünmeyen yüzlerini ortaya çıkaran Sabahattin Ali, bu kitabında güçlü bir tutkunun resmini çiziyor. ",
+        "image": "https://i.dr.com.tr/cache/600x600-0/originals/0000000058245-1.jpg",
+        "date": "17-05-2019",
+        "pageNumber": "160",
+        "category": "Roman"
+    },
+    {
+        "id": 6,
+        "name": "Suç ve Ceza",
+        "author": "Fyodor Dostoyevski",
+        "publisher": "Can Yayınları",
+        "summary": "Düştüğü yoksulluk çıkmazında toplum kurallarının bağından kurtulduğuna inanan bir gencin hikâyesini anlatan Suç ve Ceza ahlâkın anlamını sorgular. ",
+        "image": "https://i.dr.com.tr/cache/600x600-0/originals/0000000671096-1.jpg",
+        "date": "28-05-2019",
+        "pageNumber": "704",
+        "category": "Roman"
+    },
+    {
+        "id": 7,
+        "name": "Kendine Ait Bir Oda",
+        "author": "Virginia Wolf",
+        "publisher":"İletişim Yayınları",
+        "summary": "Erkeklerin kadınlara bıkıp usanmadan tekrarladıkları 'ezeli' ve de 'ezici' bir soru vardır. 'Bizler kadar düşünme yeteneğiniz olduğunu ileri sürüyorsunuz. Madem öyle, neden Shakespeare gibi bir deha çıkaramadınız?' İşte Virginia Wolf bu 'yakıcı' soruya, tarihsel ilişkilerin kökenine inip kütüphane raflarında şöyle bir gezindikten ve de kısa bir kadın edebiyatı tarihçesi çıktıktan sonra esaslı bir yanıt getiriyor.",
+        "image": "https://i.idefix.com/cache/600x600-0/originals/0000000127089-1.jpg",
+        "date": "18-05-2016",
+        "pageNumber": "127",
+        "category": "Deneme"
+    },
+    {
+        "id": 8,
+        "name": "Otomatik Portakal",
+        "author": "Anthony Burgess",
+        "publisher": "Türkiye İş Bankası Kültür Yayınları",
+        "summary":"Yayımlandığı günden bu yana “kült roman” özelliğini kaybetmeyen Otomatik Portakal’ın 15 yaşındaki kahramanı, “iyi ya da kötü nedir?”, “İnsan özgür iradesiyle kaderini seçebilir mi?” gibi soruların yanıtlarını kurcalarken, şiddet dolu sahnelere Beethoven’ın, Mozart’ın müziği eşlik ediyor; Alex ve “çete kardeşleri” Pete, Georgie ve Aptalof, yarattıkları yepyeni dilin kelimelerini okurun zihnine kazıyorlar.",
+        "image": "https://i.dr.com.tr/cache/500x400-0/originals/0001806049001-1.jpg",
+        "date": "10-09-2019",
+        "pageNumber": "176",
+        "category": "Roman"
+    },
+    {
+        "id": 9,
+        "name": "Kırmızı Pazartesi",
+        "author": "Gabriel Garcia Marquez",
+        "publisher": "Can Yayınları",
+        "summary": "Kolombiyalı büyük yazar Gabriel García Márquez’in 1981’de yayımlanan yedinci romanı Kırmızı Pazartesi, işleneceğini herkesin bildiği, engel olmak için kimsenin bir şey yapmadığı bir namus cinayetinin öyküsü.",
+        "image": "https://i.dr.com.tr/cache/600x600-0/originals/0000000064101-1.jpg",
+        "date": "15-04-2019",
+        "pageNumber": "120",
+        "category": "Roman"
+    },
+    {
+        "id": 10,
+        "name": "Yabancı",
+        "author": "Albert Camus",
+        "publisher": "Can Yayınları",
+        "summary": "Albert Camus'nün ( 1913-1960) en tanınmış, en çok yabancı dile çevrilmiş, en çok incelenmiş ve hala en çok satan kitaplar arasında yer alan Yabancı, aynı zamanda yazarın en gizemli yapıtı.",
+        "image": "https://i.dr.com.tr/cache/600x600-0/originals/0000000064464-1.jpg",
+        "date": "28-06-2019",
+        "pageNumber": "111",
+        "category": "Roman"
+    },
+    {
+        "id": 11,
+        "name": "Otostopçunun Galaksi Rehberi",
+        "author": "Douglas Adams",
+        "publisher": "Alfa Yayınları",
+        "summary": "Galaksinin Batı Sarmal Kolu’nun bir ucunda, haritası bile çıkarılmamış ücra bir köşesinde, gözlerden uzak, küçük ve sarı bir güneş vardır. Bu güneşin yörüngesinde, tamamıyla önemsiz ve mavi-yeşil renkli, küçük bir gezegen döner. Gezegenin maymun soyundan gelen canlıları öyle ilkeldir ki dijital kol saatinin hâlâ çok etkileyici bir buluş olduğunu düşünürler.",
+        "image": "https://www.alfayayinlari.com/upload/9786051715124_84176.png",
+        "date": "01-10-2019",
+        "pageNumber": "228",
+        "category": "Bilim Kurgu"
+    }
+]
