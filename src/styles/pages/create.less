@@ -1,0 +1,28 @@
+
+.form-wrapper{
+    width: calc('@{width} - 40%');
+    margin: 20px auto 20px;
+    display: @app-display;
+    justify-content: space-between;
+
+}
+.form {
+    input{
+        width: @input-width;
+        height: @input-height;
+        margin: 20px auto 0px;
+        border-radius: @radius;
+        border: @border;
+    }
+    img{
+        margin: 20px 0 0; 
+        min-width: 300px
+    }
+}
+
+.submit{
+    width: calc('@{width} - 40%');
+    margin: 0 auto 0;
+    display: @app-display;
+    justify-content: flex-end
+}

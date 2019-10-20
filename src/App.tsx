@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-//import logo from './logo.svg';
 import { Switch, Route } from 'react-router-dom';
 
-import './App.css';
+//import './App.css';
+import './styles/application.less';
 import Header from './components/Header/header';
 import BookList from './containers/BookList/BookLists';
 import BookDetail from './components/BookDetail/BookDetail';
