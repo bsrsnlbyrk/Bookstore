@@ -30,7 +30,7 @@ class BookList extends React.Component {
     
     render(){
         return(
-            <React.Fragment>
+            <div style={{minHeight: 'calc(100vh - 200px)'}}>
                 <SearchBox 
                     placeholder="Kitap, yazar veya yayınevi adı..." 
                     onChange= {(val: any) => this.handleSearch(val)}
@@ -44,7 +44,7 @@ class BookList extends React.Component {
                     number={5} 
                     setBooks={(index: any) => this.setBooks(index)}
                 />
-            </React.Fragment>
+            </div>
         );
     }
 }

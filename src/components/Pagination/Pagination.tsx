@@ -11,11 +11,11 @@ const Pagination = ({length, number, setBooks}: any) => {
     
     
     for(let i=0; i<pageNumber; i++){
-        buttons[i] = <button onClick={() => setBooks(i*number)} key={i} style={{background: 'none', border: '2px solid #77F5B0', height: '30px', width: '30px', borderRadius: '5px', marginLeft: '.5%'}}>{i + 1}</button>;
+        buttons[i] = <button onClick={() => setBooks(i*number)} key={i} className="pagination-button">{i + 1}</button>;
     }
 
     return(
-        <div style={{display: 'flex', justifyContent: 'flex-end', marginRight: '5%'}}>
+        <div className="pages">
             {buttons.map((button: any) => (button))}
         </div>
     )

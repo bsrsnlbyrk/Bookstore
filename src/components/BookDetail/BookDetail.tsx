@@ -1,7 +1,5 @@
 import React from 'react';
 
-import '../../styles/pages/detail.less';
-
 const books = require('../../data/books.json');
 
 const BookDetail = ({ match }: any) => {
@@ -10,8 +8,8 @@ const BookDetail = ({ match }: any) => {
     if(selectedBook){
         return(
             <div className="detail-wrapper">
-                <img src={selectedBook.image} alt={selectedBook.name} width="250" height="400" style={{padding: "5%"}}/>
-                <div style={{width: "50%", padding: '5%'}}>
+                <img src={selectedBook.image} alt={selectedBook.name} width="250" height="400" />
+                <div className="content">
                     <h3>{selectedBook.name}</h3>
                     <h4>{selectedBook.author}</h4>
                     <h5>{selectedBook.publisher}</h5>

@@ -1,6 +1,5 @@
 import React from 'react';
 
-//import books from '../../data/books.json';
 import Form from '../../components/Form/Form';
 
 const books = require('../../data/books.json');
@@ -11,7 +10,6 @@ class CreateBook extends React.Component{
         const object = e.target.elements;
         const values = {} as any;
         for(const element in object){
-            console.log(e.target.elements)
             if(object[element].localName==='input'){
                 values[object[element].name] = object[element].value;
             }
