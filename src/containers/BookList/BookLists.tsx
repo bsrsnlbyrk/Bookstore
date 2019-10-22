@@ -12,12 +12,14 @@ class BookList extends React.Component {
         searched: books.slice(0,5)
     }
 
+    prevState = this.state.searched;
+
     setBooks = (index: any) => {
         this.setState({ searched: books.slice(index, index + 5) });
     }
     
     handleSearch = (e: any) => {
-        if(e.target.value!==''){
+        if(e.target.value){
             const founds = books.filter((book: any) => (
                 book.name.toLowerCase().includes(e.target.value.toLowerCase()) ||
                 book.author.toLowerCase().includes(e.target.value.toLowerCase()) ||
@@ -25,7 +27,7 @@ class BookList extends React.Component {
             ));
             this.setState({ searched: founds });
         }
-        else this.setState({ searched: books })
+        else this.setState({ searched: this.prevState });
     }
     
     render(){
@@ -39,7 +41,6 @@ class BookList extends React.Component {
                     <Book book = {book}  key={book.id}/>
                 ))}
                 <Pagination 
-                    currentBooks={this.state.searched}
                     length={books.length} 
                     number={5} 
                     setBooks={(index: any) => this.setBooks(index)}

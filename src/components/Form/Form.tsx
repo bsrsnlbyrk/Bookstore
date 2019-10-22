@@ -1,6 +1,12 @@
 import React from 'react';
 
-const Form = ({ method, onSubmit, inputs }: any) => {
+interface IArguments{
+    method: string
+    onSubmit: any
+    inputs: Array<Object>
+}
+
+const Form = ({ method, onSubmit, inputs }: IArguments) => {
     return(
         <form method={method} onSubmit={onSubmit}>
             <div className="form-wrapper">

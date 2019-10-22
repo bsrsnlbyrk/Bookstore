@@ -1,6 +1,11 @@
 import React from 'react';
 
-const SearchBox = ({ placeholder, onChange }: any) => {
+interface IArguments{
+    placeholder: string
+    onChange: any
+}
+
+const SearchBox = ({ placeholder, onChange }: IArguments) => {
     return(
         <input 
             type="text"

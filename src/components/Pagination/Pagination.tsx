@@ -1,8 +1,14 @@
 import React from 'react';
 
-const Pagination = ({length, number, setBooks}: any) => {
+interface IArguments{
+    length: number
+    number: number
+    setBooks: any
+}
+
+const Pagination = ({length, number, setBooks}: IArguments) => {
     let pageNumber;
-    let buttons = [];
+    let buttons = [] as Array<Object>;
     
     if(length % number === 0){
         pageNumber = length/number;
